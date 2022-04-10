@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<table boarder="0" width="700">
+<table border="0" width="700">
 <tr>
 <td><b>Простая форма поиска с вариантами</b> 
     <form action="http://fe.it-academy.by/TestForm.php" name="form_1" method="post" target="_blank">
@@ -39,11 +39,14 @@
     <form action="http://fe.it-academy.by/TestForm.php" name="form_3" method="post" target="_blank">
     <fieldset>
     <legend>Авторизуйтесь</legend>
-    <input type="text" name="text" placeholder="Это обязательное поле"> Логин
+    <input type="text" name="text" placeholder="Это обязательное поле">
+    <label>Логин</label>
     <br>
-    <input type="text" name="text" placeholder="Это обязательное поле"> Пароль
+    <input type="text" name="text" placeholder="Это обязательное поле">
+    <label>Пароль</label> 
     <br>
-    <input type="checkbox" name="checkbox"> Оставаться в системе
+    <input type="checkbox" name="checkbox">
+    <label>Оставаться в системе</label>
     <br>
     <input type="submit" value="Войти">
     <br>
@@ -73,9 +76,11 @@
     <form action="http://fe.it-academy.by/TestForm.php" name="form_5" method="post" target="_blank">
     <fieldset>
     <legend>Оставьте ваш отзыв</legend>
-    <input type="text" name="text" placeholder="Это обязательное поле"> Имя
+    <input type="text" name="text" placeholder="Это обязательное поле">
+    <label>Имя</label> 
     <br>
-    <input type="email" name="email" placeholder="Это обязательное поле" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address"> E-mail
+    <input type="email" name="email" placeholder="Это обязательное поле" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address">
+    <label>E-mail</label>
     <br>
     <textarea name="textarea" cols="20" rows="2" placeholder="Форма отправки"></textarea>
     <br>
@@ -119,14 +124,14 @@
 </tr>
 <tr>
 <td><b>Загрузка файла на сервер:</b> 
-    <form action="http://fe.it-academy.by/TestForm.php" name="form_1" method="post" target="_blank">
+    <form action="http://fe.it-academy.by/TestForm.php" name="form_1" method="post" target="_blank" enctype="multipart/form-data">
     <fieldset>
     <legend>Upload</legend>
-    Файл
+    <label>Файл</label> 
     <br>
     <input type="file" name="file">
     <br>
-    Срок хранения (года)
+    <label>Срок хранения (года)</label>
     <br>
     <input type="number" id="number" name="number" min="1" max="100">
     <input type="submit" value="Загрузить">
@@ -149,8 +154,6 @@
     </form>
 </td>
 </tr>
-
 </table>
-
 </body>
 </html>
