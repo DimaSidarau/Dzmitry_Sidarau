@@ -1,0 +1,87 @@
+.a1{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+}
+.a2{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -1790px;
+    float: left;
+}
+.a3{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -290px -1390px;
+    float: left;
+}
+.a4{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -145px -2180px;
+    float: left;
+}
+.a5{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -2380px;
+    float: left;
+}
+.a6{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+}
+.a7{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -1790px;
+    float: left;
+    margin-left: -50px;
+}
+.a8{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -290px -1390px;
+    float: left;
+    margin-left: -50px;
+}
+.a9{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -145px -2180px;
+    float: left;
+    margin-left: -50px;
+}
+.a10{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -2380px;
+    float: left;
+    margin-left: -50px;
+}
+.empty{
+    clear: both;
+}
