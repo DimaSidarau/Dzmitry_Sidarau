@@ -1,0 +1,27 @@
+.Navi{
+    background-color: blue;
+    width: 15em;
+    float: left;
+}
+.Art{
+    background-color: aqua;
+    margin-bottom: 0.2em;
+    overflow: auto;
+    margin-left: 15em;
+}
+.Image{
+    float: right;
+}
+.Under{
+    background-color: blueviolet;
+    clear: both;
+    height: fit-content;
+}
+.wrap{
+    background-color: grey;
+    
+}
+.clear{
+    background-color: brown;
+    clear: both;
+}
