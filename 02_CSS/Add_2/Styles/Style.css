@@ -1,0 +1,84 @@
+.a1{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.a2{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -1790px;
+}
+.a3{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -290px -1390px;
+}
+.a4{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -145px -2180px;
+}
+.a5{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -2380px;
+}
+.a6{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.a7{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -1790px;
+    margin-left: -50px;
+}
+.a8{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -290px -1390px;
+    margin-left: -50px;
+}
+.a9{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: -145px -2180px;
+    margin-left: -50px;
+}
+.a10{
+    width: 140px;
+    height: 200px;
+    background-image: url(/02_CSS/Base_1/Image/cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    background-position: 0px -2380px;
+    margin-left: -50px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
