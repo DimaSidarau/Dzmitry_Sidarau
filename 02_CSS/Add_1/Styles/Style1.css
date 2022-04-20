@@ -1,0 +1,29 @@
+div{
+    width: 80%;
+    padding: 3em;
+    background-color: rgb(150, 216, 218);
+    background-image:   url(../Image/b-r.png),
+                        url(../Image/b-l.png),
+                        url(../Image/t-l.png),
+                        url(../Image/t-r.png),
+                        url(../Image/l.png),
+                        url(../Image/r.png),
+                        url(../Image/t.png),
+                        url(../Image/b.png);
+    background-repeat:  no-repeat,
+                        no-repeat,
+                        no-repeat,
+                        no-repeat,
+                        repeat-y,
+                        repeat-y,
+                        repeat-x,
+                        repeat-x;
+    background-position: bottom right,
+                        bottom left,
+                        top left,
+                        top right,
+                        left,
+                        right,
+                        top,
+                        bottom;
+}

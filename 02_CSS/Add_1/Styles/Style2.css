@@ -1,0 +1,14 @@
+div{
+    width: 80%;
+    height: fit-content;
+    padding: 3em;
+    background: url(../Image/b-r.png) no-repeat bottom right, 
+                url(../Image/b-l.png) no-repeat bottom left, 
+                url(../Image/t-l.png) no-repeat top left,
+                url(../Image/t-r.png) no-repeat top right,
+                url(../Image/l.png) repeat-y left,
+                url(../Image/r.png) repeat-y right, 
+                url(../Image/t.png) repeat-x top,
+                url(../Image/b.png) repeat-x bottom;
+                background-color: rgb(216, 168, 128);
+    }

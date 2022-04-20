@@ -1,0 +1,31 @@
+.br{
+    background: url(../Image/b-r.png) no-repeat bottom right;
+}
+.bl{
+    background: url(../Image/b-l.png) no-repeat bottom left;
+}
+.tl{
+    background: url(../Image/t-l.png) no-repeat top left;
+}
+.tr{
+    background: url(../Image/t-r.png) no-repeat top right;
+}
+.l{
+    background: url(../Image/l.png) repeat-y left;
+    width: 80%;
+}
+.r{
+    background: url(../Image/r.png) repeat-y right;
+}
+.t{
+    background: url(../Image/t.png) repeat-x top;
+}
+.b{
+    background: url(../Image/b.png) repeat-x bottom;
+}
+.a{
+    padding: 2.5em;
+}
+h2{
+    background-color: blueviolet;
+}
