@@ -1,0 +1,39 @@
+div.week{
+    display: flex;
+}
+div.week>div{
+    width: 100px;
+    background-color: rgb(211, 38, 38);
+    border: solid black 2px;
+    cursor: crosshair;
+    position: relative;
+    transition-duration: 2s;
+    
+    
+}
+div.menu>div{
+    width: 100px;
+    background-color: aqua;
+    border: solid black 2px; cursor: pointer;
+}
+div.menu{
+    display: none;
+}
+div.week>div:hover div.menu{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+@media all and (max-width:660px){
+    div.week{
+        width: 100px;
+        display: contents;
+    }
+    div.week>div:hover div.menu{
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 0px;
+    }
+}
+   
