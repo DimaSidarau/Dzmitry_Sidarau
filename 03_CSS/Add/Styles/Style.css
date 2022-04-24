@@ -7,9 +7,6 @@ div.week>div{
     border: solid black 2px;
     cursor: crosshair;
     position: relative;
-    transition-duration: 2s;
-    
-    
 }
 div.menu>div{
     width: 100px;
@@ -17,12 +14,14 @@ div.menu>div{
     border: solid black 2px; cursor: pointer;
 }
 div.menu{
-    display: none;
+    height: 0px;
+    overflow: hidden;
 }
 div.week>div:hover div.menu{
-    display: block;
+    height: 100px;
     position: absolute;
     z-index: 1;
+    transition-duration: 1.0s;
 }
 @media all and (max-width:660px){
     div.week{
