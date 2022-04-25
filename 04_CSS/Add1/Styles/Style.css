@@ -1,0 +1,24 @@
+ul{
+    list-style-image: url(../Image/logo-list.jpg);
+}
+a[href^=http]::before{
+    content: url(../Image/extref.png);
+}
+a[href*=word]::after{
+    content: url(../Image/logo-doc.jpg);
+}
+a[href*=adobe]::after{
+    content: url(../Image/logo-pdf.png);
+}
+a[href*=archive]::after{
+    content: url(../Image/logo-zip.gif);
+}
+.ms:hover::after{
+    content: url(../Image/logo-doc.jpg);
+}
+.pdf:hover::after{
+    content: url(../Image/logo-pdf.png);
+}
+.zip:hover::after{
+    content: url(../Image/logo-zip.gif);
+}
