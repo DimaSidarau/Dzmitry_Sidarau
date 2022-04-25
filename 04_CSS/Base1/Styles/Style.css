@@ -1,14 +1,12 @@
 ul{
     list-style-image: url(../Image/logo-list.jpg);
 }
-li:hover a:first-child{
-    background-image: url(../Image/logo-doc.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 200px;
-    z-index: 1;
+.ms:hover::after{
+    content: url(../Image/logo-doc.jpg);
 }
-
-
-
-
+.pdf:hover::after{
+    content: url(../Image/logo-pdf.png);
+}
+.zip:hover::after{
+    content: url(../Image/logo-zip.gif);
+}
